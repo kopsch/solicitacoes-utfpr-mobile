@@ -81,7 +81,6 @@ const RegisterScreen = ({ navigation }: any) => {
             secureTextEntry
           />
 
-          {/* 🔹 BOTÕES */}
           {loading ? (
             <ActivityIndicator size="large" color="#002147" />
           ) : (

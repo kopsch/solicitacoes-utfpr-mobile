@@ -123,7 +123,6 @@ const RequestDetailsScreen = ({ navigation, route }: Props) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* 🔹 Botão "Voltar" realmente fixo na tela */}
       <TouchableOpacity
         onPress={() => navigation.goBack()}
         style={{
@@ -157,7 +156,6 @@ const RequestDetailsScreen = ({ navigation, route }: Props) => {
         </Text>
       </TouchableOpacity>
 
-      {/* 🔹 Conteúdo da tela (scrollável) */}
       <FlatList
         data={comments}
         keyExtractor={(item) => item.id}
@@ -238,7 +236,6 @@ const RequestDetailsScreen = ({ navigation, route }: Props) => {
         contentContainerStyle={{ paddingBottom: 100 }}
       />
 
-      {/* 🔹 Botão de comentário flutuante */}
       <TouchableOpacity
         style={[styles.fab, { bottom: 20 + insets.bottom }]}
         onPress={() => setModalVisible(true)}
@@ -246,7 +243,6 @@ const RequestDetailsScreen = ({ navigation, route }: Props) => {
         <Ionicons name="chatbubble-ellipses" size={26} color="white" />
       </TouchableOpacity>
 
-      {/* 🔹 Modal de adicionar comentário */}
       <AddCommentModal
         visible={isModalVisible}
         onClose={() => setModalVisible(false)}

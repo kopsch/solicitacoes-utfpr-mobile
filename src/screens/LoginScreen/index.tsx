@@ -52,14 +52,11 @@ const LoginScreen = ({ navigation }: any) => {
     >
       <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
         <View style={styles.container}>
-          {/* 🔹 LOGO / NOME DO APP */}
           <Text style={styles.appName}>UniHelp</Text>
           <Text style={styles.subtitle}>Portal de Solicitações da UTFPR</Text>
 
-          {/* 🔹 TÍTULO DA TELA */}
           <Text style={styles.title}>Acesse sua conta</Text>
 
-          {/* 🔹 INPUTS */}
           <TextInput
             style={styles.input}
             placeholder="E-mail Institucional"
@@ -76,7 +73,6 @@ const LoginScreen = ({ navigation }: any) => {
             secureTextEntry
           />
 
-          {/* 🔹 BOTÕES */}
           {loading ? (
             <ActivityIndicator size="large" color="#002147" />
           ) : (

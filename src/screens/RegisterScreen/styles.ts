@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
   appName: {
     fontSize: 40,
     fontWeight: "bold",
-    color: "#002147", // azul universitário
+    color: "#002147",
     marginBottom: 5,
   },
   subtitle: {

@@ -1,4 +1,3 @@
-// src/types/index.ts
 import { Timestamp } from 'firebase/firestore';
 
 export interface Request {
