@@ -55,7 +55,7 @@ Pré-requisitos
 1. Clone o repositório
 ```bash
 git clone https://github.com/kopsch/solicitacoes-utfpr-mobile.git
-cd solicitacoes-utfpr
+cd solicitacoes-utfpr-mobile
 ```
 2. Instale as dependências
 ```bash 
