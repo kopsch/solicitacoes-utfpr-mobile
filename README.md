@@ -54,7 +54,7 @@ Pré-requisitos
 #### 🔧 Configuração do Ambiente
 1. Clone o repositório
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/kopsch/solicitacoes-utfpr-mobile.git
 cd solicitacoes-utfpr
 ```
 2. Instale as dependências
