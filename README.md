@@ -46,7 +46,7 @@ Um aplicativo móvel desenvolvido em React Native com TypeScript para que a comu
 ### 1. 📥 Passos para Instalação, Configurações e Execução do Projeto
 Pré-requisitos
 
-- Node.js (versão 16 ou superior)
+- Node.js (versão 22.12 ou superior)
 - npm ou yarn
 - Expo CLI (https://cursos.alura.com.br/forum/topico-duvida-passo-a-passo-para-instalar-o-expo-cli-302480)
 - Dispositivo Android ou emulador
