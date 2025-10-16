@@ -54,7 +54,7 @@ Pré-requisitos
 #### 🔧 Configuração do Ambiente
 1. Clone o repositório
 ```bash
-git clone https://github.com/kopsch/solicitacoes-utfpr-mobile.git
+git clone <url-do-repositorio>
 cd solicitacoes-utfpr
 ```
 2. Instale as dependências
@@ -86,6 +86,40 @@ npm run start
 - Método 1 (Recomendado): Instale o app Expo Go na Play Store e escaneie o QR code gerado no terminal
 - Método 2: Execute em um emulador Android (Android Studio)
 - Método 3: Para desenvolvimento web: npx expo start --web
+
+7. (opcional) Caso queira gerar o APK para teste (Build de Produção) 
+
+-  Instale o EAS CLI:
+```bash
+npm install -g eas-cli
+```
+Faça login na sua conta Expo:
+
+Se você ainda não tiver uma conta, crie gratuitamente em https://expo.dev/signup
+
+```bash
+eas login
+```
+
+Configure o projeto:
+
+```bash
+eas build:configure
+```
+
+Gere o APK:
+
+```bash
+eas build -p android --profile preview
+```
+
+Download do APK:
+Após o build terminar, o terminal exibirá um link para download, por exemplo:
+
+```ruby
+✔ Build finished
+Download: https://expo.dev/artifacts/eas/abcdef1234
+```
 
 ### 2. 🧪 Dados e Informações para o Teste
 🔑 Credenciais de Teste Pré-configuradas
