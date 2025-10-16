@@ -45,9 +45,19 @@
         {
           "locationAlwaysAndWhenInUsePermission": "Permitir que o $(PRODUCT_NAME) use sua localização."
         }
-      ]
+      ],
+      "expo-font"
     ],
     "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyAJTzobg6jgucOGsalG8OKU_RZnl0_7fGA",
+        "authDomain": "utfpr-solicitacoes.firebaseapp.com",
+        "projectId": "utfpr-solicitacoes",
+        "storageBucket": "utfpr-solicitacoes.firebasestorage.app",
+        "messagingSenderId": "865958766471",
+        "appId": "1:865958766471:web:837f667d29249aee629522",
+        "measurementId": "G-ZCEDSXZT7L"
+      },
       "eas": {
         "projectId": "d053df8f-d39f-4510-807d-ca3807895664"
       }
